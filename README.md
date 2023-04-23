@@ -10,6 +10,7 @@ Inspired by object recognition and sentiment analysis of text, where many models
 
 1- Dataset:
 Audio recordings from RAVIDESS dataset (SR et al., 2018), which contains 24 professional actors (12 female, 12 male), vocalizing two lexically-matched statements in a neutral North American accent. Speech emotions include calm, happy, sad, angry, fearful, surprise, and disgust expressions. Each expression is produced at two levels of emotional intensity (normal, strong), with an additional neutral expression, totaling around 3000 samples.
+
 2- Feature Extraction:
 Features are extracted from the audio recordings using MFCC, where audio is represented as a 2-dimensional matrix. MFCC can be defined as the short-term power spectrum of a voice signal measured as the linear cosine transformation of the log power spectrum on a non-linear Mel frequency scale. This Mel scale approximates the human auditory system's response more closely than the linearly-spaced frequency bands used in case of cepstrum (Sha et al., 1997).
 
